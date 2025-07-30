@@ -1,0 +1,33 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build output directories
+/build/
+/dist/
+
+# Ignore node_modules for JavaScript projects
+node_modules/
+
+# Ignore environment variables and sensitive data
+.env
+config.local.js
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+
+# Ignore large data files that should not be version controlled
+*.sqlite3
+/data/*.csv
+
+# Ignore these
+*:Zone.Identifier
